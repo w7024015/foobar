@@ -9374,3 +9374,64 @@ Done. PASS=1 WARN=0 ERROR=0 SKIP=0 TOTAL=1
 2021-02-19 13:07:18.645233 (Thread-120): handling status request
 2021-02-19 13:07:18.645676 (Thread-120): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '018fc5c8-c54b-4fb5-8389-5b2d25fa806d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f717310fee0>]}
 2021-02-19 13:07:18.646639 (Thread-120): sending response (<Response 768 bytes [200 OK]>) to 10.0.12.204
+2021-02-19 13:07:24.395465 (MainThread): Connection 'test.my_new_project.wns_nm_dd_ucid_hhi_demo_temp3' was properly closed.
+2021-02-19 13:07:24.432210 (Thread-121): Parsing macros/relations.sql
+2021-02-19 13:07:24.433456 (Thread-121): Parsing macros/adapters.sql
+2021-02-19 13:07:24.460817 (Thread-121): Parsing macros/catalog.sql
+2021-02-19 13:07:24.473651 (Thread-121): Parsing macros/materializations/snapshot_merge.sql
+2021-02-19 13:07:24.474736 (Thread-121): Parsing macros/relations.sql
+2021-02-19 13:07:24.476239 (Thread-121): Parsing macros/adapters.sql
+2021-02-19 13:07:24.498453 (Thread-121): Parsing macros/catalog.sql
+2021-02-19 13:07:24.500904 (Thread-121): Parsing macros/materializations/snapshot_merge.sql
+2021-02-19 13:07:24.503620 (Thread-121): Parsing macros/core.sql
+2021-02-19 13:07:24.508084 (Thread-121): Parsing macros/adapters/common.sql
+2021-02-19 13:07:24.556795 (Thread-121): Parsing macros/materializations/helpers.sql
+2021-02-19 13:07:24.565678 (Thread-121): Parsing macros/materializations/table/table.sql
+2021-02-19 13:07:24.572617 (Thread-121): Parsing macros/materializations/seed/seed.sql
+2021-02-19 13:07:24.593217 (Thread-121): Parsing macros/materializations/view/view.sql
+2021-02-19 13:07:24.599480 (Thread-121): Parsing macros/materializations/view/create_or_replace_view.sql
+2021-02-19 13:07:24.604441 (Thread-121): Parsing macros/materializations/incremental/helpers.sql
+2021-02-19 13:07:24.606285 (Thread-121): Parsing macros/materializations/incremental/incremental.sql
+2021-02-19 13:07:24.612544 (Thread-121): Parsing macros/materializations/common/merge.sql
+2021-02-19 13:07:24.626380 (Thread-121): Parsing macros/materializations/snapshot/strategies.sql
+2021-02-19 13:07:24.642651 (Thread-121): Parsing macros/materializations/snapshot/snapshot_merge.sql
+2021-02-19 13:07:24.644499 (Thread-121): Parsing macros/materializations/snapshot/snapshot.sql
+2021-02-19 13:07:24.673675 (Thread-121): Parsing macros/schema_tests/relationships.sql
+2021-02-19 13:07:24.676102 (Thread-121): Parsing macros/schema_tests/not_null.sql
+2021-02-19 13:07:24.677744 (Thread-121): Parsing macros/schema_tests/unique.sql
+2021-02-19 13:07:24.679967 (Thread-121): Parsing macros/schema_tests/accepted_values.sql
+2021-02-19 13:07:24.683597 (Thread-121): Parsing macros/etc/get_custom_database.sql
+2021-02-19 13:07:24.685378 (Thread-121): Parsing macros/etc/query.sql
+2021-02-19 13:07:24.686498 (Thread-121): Parsing macros/etc/datetime.sql
+2021-02-19 13:07:24.695938 (Thread-121): Parsing macros/etc/get_custom_alias.sql
+2021-02-19 13:07:24.696967 (Thread-121): Parsing macros/etc/is_incremental.sql
+2021-02-19 13:07:24.698717 (Thread-121): Parsing macros/etc/get_custom_schema.sql
+2021-02-19 13:07:24.742751 (Thread-121): Acquiring new redshift connection "model.my_new_project.wns_nm_sd_dim_customer_demo".
+2021-02-19 13:07:24.763393 (Thread-121): Acquiring new redshift connection "model.my_new_project.wns_nm_dd_demogog_staging".
+2021-02-19 13:07:24.775650 (Thread-121): Acquiring new redshift connection "model.my_new_project.wns_nm_dd_tt_ucid_reftable".
+2021-02-19 13:07:24.789089 (Thread-121): Acquiring new redshift connection "model.my_new_project.wns_nm_dd_ucid_hhi_info".
+2021-02-19 13:07:24.809919 (Thread-121): Acquiring new redshift connection "model.my_new_project.wns_nm_dd_ucid_hhi_demo_temp2".
+2021-02-19 13:07:24.837722 (Thread-121): Acquiring new redshift connection "model.my_new_project.wns_nm_dd_ucid_hhi_demo_temp1_2".
+2021-02-19 13:07:24.857619 (Thread-121): Acquiring new redshift connection "model.my_new_project.wns_nm_dd_ucid_hhi_demo_temp1".
+2021-02-19 13:07:24.876186 (Thread-121): Acquiring new redshift connection "model.my_new_project.wns_nm_dd_ucid_hhi_demo_temp3".
+2021-02-19 13:07:24.904489 (Thread-121): Acquiring new redshift connection "test.my_new_project.record_test".
+2021-02-19 13:07:24.918100 (Thread-122): handling status request
+2021-02-19 13:07:24.918602 (Thread-122): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '018fc5c8-c54b-4fb5-8389-5b2d25fa806d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f717202d2e0>]}
+2021-02-19 13:07:24.919570 (Thread-122): sending response (<Response 185 bytes [200 OK]>) to 10.0.11.164
+2021-02-19 13:07:24.926059 (Thread-121): Acquiring new redshift connection "test.my_new_project.wns_nm_dd_ucid_hhi_demo_temp3".
+2021-02-19 13:07:26.467972 (Thread-123): handling status request
+2021-02-19 13:07:26.468507 (Thread-123): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '018fc5c8-c54b-4fb5-8389-5b2d25fa806d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f717202f1f0>]}
+2021-02-19 13:07:26.472753 (Thread-123): sending response (<Response 11826 bytes [200 OK]>) to 10.0.42.63
+2021-02-19 13:07:31.077109 (MainThread): Connection 'test.my_new_project.wns_nm_dd_ucid_hhi_demo_temp3' was properly closed.
+2021-02-19 13:07:31.132017 (Thread-124): Got an acceptable cached parse result
+2021-02-19 13:07:31.634759 (Thread-125): handling status request
+2021-02-19 13:07:31.635185 (Thread-125): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '018fc5c8-c54b-4fb5-8389-5b2d25fa806d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f71731eac40>]}
+2021-02-19 13:07:31.659065 (Thread-125): sending response (<Response 448 bytes [200 OK]>) to 10.0.43.125
+2021-02-19 13:07:52.680022 (Thread-126): Got an acceptable cached parse result
+2021-02-19 13:07:52.737082 (Thread-126): Acquiring new redshift connection "test.my_new_project.wns_nm_dd_ucid_hhi_demo_temp3".
+2021-02-19 13:07:53.132740 (Thread-127): handling status request
+2021-02-19 13:07:53.133189 (Thread-127): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '018fc5c8-c54b-4fb5-8389-5b2d25fa806d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f717224fa00>]}
+2021-02-19 13:07:53.134106 (Thread-127): sending response (<Response 768 bytes [200 OK]>) to 10.0.40.224
+2021-02-19 13:08:01.599653 (Thread-128): handling status request
+2021-02-19 13:08:01.600097 (Thread-128): Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '018fc5c8-c54b-4fb5-8389-5b2d25fa806d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7171f5d9a0>]}
+2021-02-19 13:08:01.600984 (Thread-128): sending response (<Response 768 bytes [200 OK]>) to 10.0.28.104

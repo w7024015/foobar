@@ -3,4 +3,4 @@
 select
     count(*) as total_amount
 from {{ ref('wns_nm_dd_ucid_hhi_demo_temp3' )}}
-having not(total_amount >= 0)
+having not(total_amount >= 1)
